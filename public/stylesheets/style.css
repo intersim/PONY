@@ -33,8 +33,7 @@
 
 	width: calc(25% - 12px);
 	margin: 3px;
-	border: 1px solid #d3d3d3;
-	background-color: cyan;
+	border-radius: 5px;
 }
 
 .main-gutter {
