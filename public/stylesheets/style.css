@@ -10,7 +10,7 @@
 	flex-direction: row;
 	width: 100vw;
 	padding: 15px;
-	background-color: #d3d3d3;
+	background-color: #e3e3e3;
 	color: cornflowerblue;
 }
 
@@ -28,15 +28,15 @@
 	width: 50%;
 }
 
-.main {
-	display: flex;
-}
 
 .main-gallery-img {
-
 	width: calc(25% - 12px);
 	margin: 3px;
 	border-radius: 5px;
+}
+
+.crop {
+	height: 250px;
 }
 
 .main-gutter {
@@ -62,7 +62,7 @@
   
 }
 
-@media (max-width: 600px) {
+@media (max-width: 450px) {
 
 	.main-gallery-img {
 		width: calc(100% - 12px);
