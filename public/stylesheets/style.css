@@ -7,8 +7,11 @@
 
 .header {
 	display: flex;
-	flex: 1;
 	flex-direction: row;
+	width: 100vw;
+	padding: 15px;
+	background-color: #d3d3d3;
+	color: cornflowerblue;
 }
 
 .header-info {
@@ -40,9 +43,6 @@
 	width: 4em;
 }
 
-.footer {
-	flex: 1;
-}
 
 @media (max-width: 1000px) {
   .container {
@@ -64,12 +64,17 @@
 
 @media (max-width: 600px) {
 
-  .main-gallery-img {
-  	width: calc(100% - 12px);
-  }
-
-  .header-nav {
-	flex-direction: column;
-}
+	.main-gallery-img {
+		width: calc(100% - 12px);
+	}
+	.header {
+		position: fixed;
+		top: 0;
+		left: 0;
+		opacity: 0.6;
+	}
+	.header-nav {
+		flex-direction: column;
+	}
   
 }
